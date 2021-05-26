@@ -16,7 +16,6 @@ public class Exercicio2 {
 		 * se a quantidade de diarias for menor que 5 a taxa será de 10 %
 		 * Exiba o valor final.
 		 * 
-		 * 
 		 */
 		
 		float qtddiarias = Float.parseFloat(JOptionPane.showInputDialog("Digite q quantidade de diários: "));
