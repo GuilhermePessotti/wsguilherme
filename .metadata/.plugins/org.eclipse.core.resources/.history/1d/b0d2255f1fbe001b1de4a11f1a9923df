@@ -1,0 +1,17 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class ExemploWhile {
+	
+	public static void main(String[] args) {
+		String email = JOptionPane.showInputDialog("Digite o email").toUpperCase();
+				
+				while (email.contains("@")==false || email.indexOf("@")<2) {
+					email = JOptionPane.showInputDialog("Digite o email nomavemnte").toUpperCase();
+				}
+				
+				System.out.println("Usuário: " + email.substring(0, email.indexOf("@")));
+	}
+
+}

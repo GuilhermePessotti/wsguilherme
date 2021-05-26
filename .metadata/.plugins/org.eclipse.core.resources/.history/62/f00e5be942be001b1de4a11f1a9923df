@@ -1,0 +1,35 @@
+package repeticao;
+
+public class Exercicio2 {
+	
+	public static void main(String[] args) {
+		
+		
+		/*
+		 * Exercicio 1
+		 * Peça para o usuário digitar o valor da tabuada que ele deseja visualizar.
+		 * monte o laço para que apresente o resultado da tabuada, da seuinte forma:
+		 * 
+		 * numero X 0 = resultado
+		 * numero X 1 = resultado
+		 * numero X 100 = resultado
+		 * 
+		 * Exercicio 2
+		 * Solicite o nome do cliente e o email, pergunte a ele se deseja adicionar
+		 * itens para sua compra, e enquanto ele responder que sim, peça:
+		 * nome do produto,valor e qtde.
+		 * Exiba para cada produto o total de cada um.
+		 * Quando terminar de adicionar produtos exiba no final o total da conta.
+		 * 
+		 * Exercicio 3
+		 * Solicite ao usuário (enquanto ele quiser), o cargo e o salario do cargo.
+		 * No final exiba:
+		 * - total de todos os salarios
+		 * - média
+		 * - o maior valor entre todos os salários que foram digitados, com o cargo.
+		 * 
+		 * 
+		 */
+	}
+
+}

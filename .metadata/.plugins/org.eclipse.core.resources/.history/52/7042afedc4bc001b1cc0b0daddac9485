@@ -1,0 +1,43 @@
+package variaveis;
+
+import javax.swing.JOptionPane;
+
+public class CalculoProduto {
+	
+	public static void main(String[] args) {
+		
+		/*
+		 * Capturem:
+		 * Nome do produto
+		 * qte do produto
+		 * valor unitario
+		 * exibir no final:
+		 * nome do produto
+		 * valor total
+		 * valor do imposto (17% sobre o valor total
+		 */
+		
+		String Produto = JOptionPane.showInputDialog("Digite o nome do produto: ");
+		int qtdproduto = Interger.parseInt(JOptionPane.showInputDialog("Digite o nome do produto: "));
+		
+		System.out.println(Produto);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+package variaveis;
+
+public class CalculoProduto {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

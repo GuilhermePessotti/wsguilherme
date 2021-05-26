@@ -1,0 +1,23 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class DecisaoSimplesDesafio {
+	
+	public static void main(String[] args) {
+		
+		/*
+		 * Capture o nome de uma pessoa e a idade
+		 * De acordo com as leis eleitoriais apresente uma 
+		 * das mensagens abaixo:
+		 * = "Seu voto é obrigatorio"
+		 * = "Seu voto é facultativo"
+		 * - Voce não pode votar"
+		 */
+		
+		String nome = JOptionPane.showInputDialog("Digite seu nome: ");
+		int idade = Integer.parseInt(JOptionPane.showInputDialog("Digite sua idade: "));
+		
+	}
+
+}

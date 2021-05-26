@@ -1,0 +1,40 @@
+package variaveis;
+
+public class CalculoProduto {
+	
+	public static void main(String[] args) {
+		String Produto = "Banana";
+		
+		System.out.println(Produto);
+		
+		
+		/*
+		 * Capturem:
+		 * Nome do produto
+		 * qte do produto
+		 * valor unitario
+		 * exibir no final:
+		 * nome do produto
+		 * valor total
+		 * valor do imposto (17% sobre o valor total
+		 */
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

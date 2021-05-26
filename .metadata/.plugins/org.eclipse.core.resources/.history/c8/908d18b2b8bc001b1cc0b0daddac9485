@@ -1,0 +1,35 @@
+package variaveis;
+
+public class TiposDados {
+	
+	public static void main(String[] args) {
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	// Em uma classe encontramos: métodos e atributos
+	// Nossa classe é publica
+	/*
+	 * JVM é o interpretador do Java
+	 * JRE é o ambiente de execução
+	 * JDk é o ambiente para desenvolvimento Java
+	 * 
+	 */
+	
+} // fechando o bloco da classe Tiposdados

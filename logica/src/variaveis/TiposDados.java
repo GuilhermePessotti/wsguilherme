@@ -1,0 +1,62 @@
+package variaveis;
+
+import javax.swing.JOptionPane;
+
+public class TiposDados {
+	// main () é o start point de uma aplicação java
+	// é a chave de ignição do carro
+	public static void main(String[] args) {
+		
+		// Sintaxe: <Tipo de dado> <nome da variavel> = <dado>;
+		
+		String nome = JOptionPane.showInputDialog("Digite o seu nome: ");
+		int idade = Integer.parseInt(JOptionPane.showInputDialog("Digite sua idade: "));
+		double altura = Double.parseDouble(JOptionPane.showInputDialog("Digite sua altura: "));
+		double peso = Double.parseDouble(JOptionPane.showInputDialog("Digite seu peso: "));
+		double imc = peso / (altura * altura);
+		
+		System.out.println("Nome...: " + nome);
+		System.out.println("Idade... : " + idade);
+		System.out.println("Altura... :" + altura);
+		System.out.println("IMC...: " +imc);
+		
+		
+		/*
+		 * Alfanumérico:é um texto, parte de um texto ou um numero que não será utilizado
+		 *em operações matematicas.
+		 * Em javanes: "String" S maiusculo
+		 * 
+		 * Numérico: representa um dado que PODE ser utilizado em expressões matemáticas 
+		 * e /ou é considerado um dado critico para o contexto.
+		 * Em Javanes: 
+		 * "int" para representação de números inteiros
+		 * "double" para numeros reais (com casas decimais)
+		 */
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	// Em uma classe encontramos: métodos e atributos
+	// Nossa classe é publica
+	/*
+	 * JVM é o interpretador do Java
+	 * JRE é o ambiente de execução
+	 * JDk é o ambiente para desenvolvimento Java
+	 * 
+	 */
+	
+} // fechando o bloco da classe Tiposdados

@@ -1,0 +1,25 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio4 {
+	
+	public static void main(String[] args) {
+		
+		/*
+		 * Exercicio 4:
+		 * Receba três números inteiros e coloque-os em ordem numérica
+		 * crescente. Garanta que os três números sejam diferentes.
+		 * 
+		 */
+		
+		int valor1 =Integer.parseInt(JOptionPane.showInputDialog("Digite o valor1: "));
+		int valor2 =Integer.parseInt(JOptionPane.showInputDialog("Digite o valor2: "));
+		int valor3 =Integer.parseInt(JOptionPane.showInputDialog("Digite o valor3: "));
+		
+		if (valor1 == valor2 || valor2 == valor3 || valor1 == valor3) {
+			System.out.println("Numeros iguais, favor digitar numeros diferentes");
+		}
+		
+	}
+}

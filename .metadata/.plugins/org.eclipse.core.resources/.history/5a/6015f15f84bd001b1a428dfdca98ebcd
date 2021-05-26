@@ -1,0 +1,32 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio2 {
+	
+	public static void main(String[] args) {
+		
+		/*
+		 * 
+		 * Exercicio 2:
+		 * Considere receber a quantidade de diarias de um hotel e o valor
+		 * da diaria. sobre a diaria haverá uma taxa que depende da quantidade diária.
+		 * Se a quantidade de diarias for maior que 10 a taxa será de 5%.
+		 * Se a quantidade de diarias estiver entre 5 e 10 a taxa será de 8 %
+		 * se a quantidade de diarias for menor que 5 a taxa será de 10 %
+		 * Exiba o valor final.
+		 * 
+		 */
+		
+		float qtddiarias = Float.parseFloat(JOptionPane.showInputDialog("Digite q quantidade de diários: "));
+		float valor = Float.parseFloat(JOptionPane.showInputDialog("Qual o valor da diária: "));
+		
+		if(qtddiarias > 10) {
+			System.out.println("O valor total a pagar é de :" + (valor + (valor * 0.05)));
+		}
+		
+		else if (qtddiarias < 5) {
+			System.out.println("O valor total a pagar é de :" + (valor + (valor * 0.10)));
+		}
+	}
+}

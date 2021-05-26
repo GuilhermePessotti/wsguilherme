@@ -1,0 +1,25 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio1 {
+	
+	public static void main(String[] args) {
+		
+		/*
+		 * Exercicio 1:
+		 * Solicite dois valores e um operador matematico
+		 * (+, -, /ou *)
+		 * Dependendo do operador que foi digitado realize o calculo
+		 * e exiba o resultado.
+		 * Dica: Se utilizar String a comparação de String deve ser:
+		 * if ( variavel.equals("valorsercomparado")){}
+		 * 
+		 * 
+		 */
+		String disciplina = JOptionPane.showInputDialog("Digite o primeiro valor: ");
+		
+		if(!variavel.equals("")) {
+		
+	}
+}
