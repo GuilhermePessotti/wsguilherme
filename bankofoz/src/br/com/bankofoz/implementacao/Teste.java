@@ -59,17 +59,16 @@ public class Teste {
 			
 		}
 		
+		
 		System.out.println("Resumo Preenchimento : " + conta.toString());
 		System.out.println("Depositando -10 : " + conta.depositar(-10));
 		System.out.println("Sacando 300: " + conta.sacar(300));
 		System.out.println("Saldo: " + conta.getSaldo());
 		System.out.println("resumo: " + conta.getResumo());
-		//System.out.println("Imprimir limite: " + corrente.getLimite());
-		conta = new Conta(
-				
-				);
 		System.out.println("resumo da conta: " + conta.getResumo());
-		System.out.println("Sacando 300: " + conta.sacar(300));
+		System.out.println("Sacando 300: " + conta.sacar(300)); 
+		//sacar herda o metodo da classe super caso não tenha o sacar na classe filtro 
+		//que é o caso da corrente.
 		
 	}
 

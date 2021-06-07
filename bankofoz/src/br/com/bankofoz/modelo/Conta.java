@@ -1,5 +1,21 @@
 package br.com.bankofoz.modelo;
 
+/*
+ * Polimorfismo:
+ * É o pilar que admite um elemento ter o mesmo nome e executar várias ações distintas.
+ * => Objeto
+ * Quando fazendo uso da herança, criamos o objeto pelo pai e instanciamos pelo filho.
+ * Exemplo:
+ * Conta conta = new Corrente();
+ * => Método
+ * Dois tipos:
+ * Overload (sobrecarga)=> quando os métodos estão na mesma classe (desacelerar() da classe Veiculo)
+ * Override (sobrescrita) => quando os métodos estão em classes distintas (pai e filha) 
+ * Exemplo: getResumo() => está na classe Conta, Corrente e na classe Poupanca 
+ * 
+ * 
+ */
+
 public class Conta {
 	
 	private int numero;
@@ -9,7 +25,7 @@ public class Conta {
 	
 	
 	public String getResumo() {
-		return "Saldo: " + saldo + " Nome do cliente: " + cliente;
+		return "Saldo: " + saldo +  "\n" + " Nome do cliente: " + cliente.getNome(); //get nome para pegar somente o nome do cleinte não a classe cliente toda.
 	}
 	
 	public boolean depositar(double valor) {
@@ -22,7 +38,7 @@ public class Conta {
 	}
 	
 	public boolean sacar(double valor) {
-		if (saldo - valor > 0) {
+		if (valor <= saldo) {
 			saldo = saldo - valor;
 			return true;
 		}else {

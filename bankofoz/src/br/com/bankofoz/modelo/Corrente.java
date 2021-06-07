@@ -1,13 +1,15 @@
 package br.com.bankofoz.modelo;
 
+//Cuidados no construtor cheio e no tostring.
+
 public class Corrente extends Conta {
 	
 	private double limite;
 	private double taxa;
 	
 	public String getResumo() {
-		return "Taxa : " + taxa + " Limite: " + limite + " Saldo da conta: " + super.getSaldo() + 
-				" Nome do Cliente: " + super.getCliente().getNome();
+		return "Taxa : " + taxa  + " \nLimite: " + limite + " \nSaldo da conta: " + super.getSaldo() + 
+				"\nNome do Cliente: " + super.getCliente().getNome();
 	}
 	
 	public double getSaldo() {

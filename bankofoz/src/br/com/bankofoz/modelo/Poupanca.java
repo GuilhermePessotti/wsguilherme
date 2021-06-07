@@ -1,5 +1,5 @@
 package br.com.bankofoz.modelo;
-
+//Cuidados no construtor cheio e no tostring.
 public class Poupanca extends Conta {
 	
 	private double rendimento;
@@ -7,8 +7,8 @@ public class Poupanca extends Conta {
 	
 	
 	public String getResumo() {
-		return "Aniversario: " + aniversario + " Saldo : " + super.getSaldo() + " Nome do Cliente : " 
-				+ super.getCliente().getNome() + " Nome da Agencia: " + super.getAgencia().getNome();
+		return "Aniversario: " + aniversario + "\n Saldo : " + super.getSaldo() + "\n Nome do Cliente : " 
+				+ super.getCliente().getNome() + "\n Nome da Agencia: " + super.getAgencia().getNome();
 	}
 	
 	
