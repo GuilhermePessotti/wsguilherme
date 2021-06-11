@@ -14,11 +14,15 @@ import org.springframework.web.bind.annotation.RestController;
 import br.com.projetofinal.dao.UsuarioDAO;
 import br.com.projetofinal.modelo.Usuario;
 
+
+
+
+
 @RestController //aponta para o spring que esta classe responderá o HTTP
 @CrossOrigin("*") // libera o acesso externo
 public class UsuarioController {
 
-	@Autowired //Spring gerencia a instancia do dao
+	@Autowired//Spring gerencia a instancia do dao
 	private UsuarioDAO dao;
 	
 	@PostMapping ("/login2") //metodo onde a validação do login é feita no DB com o Spring boot.
@@ -36,7 +40,7 @@ public class UsuarioController {
 	public ResponseEntity<Usuario> login(@RequestBody Usuario objeto){
 		List<Usuario> lista = (List<Usuario>) dao.findAll();
 		for (Usuario usuario : lista) {
-			if (usuario.getEmail().equals(objeto.getEmail())) {
+			if (usuario.getNome().equals(objeto.getEmail())||usuario.getEmail().equals(objeto.getEmail()) ) {
 				if (usuario.getSenha().equals(objeto.getSenha())) {
 					usuario.setSenha(""); //zerar senha para não retornar valor ao front.
 					return ResponseEntity.ok(usuario);

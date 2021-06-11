@@ -30,6 +30,7 @@ public class Artista {
 	
 	@Column(name="estilo", length=50)
 	private String estilo;
+	
 	@JsonIgnoreProperties("artista") // ignora o atributo artista no json quando chama a classe musica.
 	@OneToMany(cascade=CascadeType.ALL, mappedBy = "artista")
 	private List<Musica> musicas;

@@ -60,7 +60,9 @@ public class Usuario {
 		this.foto = foto;
 	}
 	
-	public Usuario(int id, String nome, String email, String senha, String foto) {
+	
+	
+	public Usuario(int id, String nome, String email, String senha, String foto, String racf) {
 		super();
 		this.id = id;
 		this.nome = nome;
